@@ -22,8 +22,14 @@ vmn_clean_01
 - Bỏ cột TCTT khác (dạng text)
 - Thêm biến lietmat (đã thêm codebook)
 - Thêm sheet HAH (tách CT, MRI xử lý sau), thêm sheet visinh (tách vi sinh xử lý sau)
-- Kiểm tra điều chỉnh Hb
+- Kiểm tra điều chỉnh Hb (lý do nhập nhầm cột Eos thành Hb)
   - 25-0116081: thành 120
-  - 
+  - 25-0049219: thành 123
+  - 24-0014372: thành 138
+  - 24-0052119: thành 121
+  - 24-0051120: thành 117
+  - 23-0072994: thành 99
+- Kiểm tra điều chỉnh Eos
+  - 23-0072994: thành 0 (lý do nhập nhầm cột Mono thành Eos)
 ## Lưu ý
 - 24-0094271 đã kiểm tra không có dữ liệu tế bào DNT do chạm mạch, không làm được
