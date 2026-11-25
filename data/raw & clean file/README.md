@@ -40,4 +40,8 @@ vmn_clean_01
     - 23-0036174" ~ 1164,
     - snv == "23-0020310" ~ 56,
     - snv == "23-0105835" ~ 19 [đã kiểm tra data]
-- 
+- sửa neu, eos, gludnt "25-0026920"
+- sửa bc, neu, lym, eos, gludnt 25-0030375
+- sửa eosdnt 25-0116196
+- sửa lacdnt, bidnt, cldnt == 0 ~ NA
+- điều chỉnh snv 25-0080395, 25-0046961, 25-0057648, 24-0054626 kqvmn == 1 -> 0
