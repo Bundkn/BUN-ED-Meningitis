@@ -36,7 +36,8 @@ vmn_clean_01
 - snv == "25-0057205" ~ 0.69 # do đã tra lại hồ sơ lấy XN BV khác trước nhập viện, bổ sung eGFR tương ứng
 - bỏ hàng 24-0094271 đã kiểm tra không có dữ liệu tế bào DNT do chạm mạch, không làm được (thống nhất ý kiến thày Di)
 - sửa bc, neu, lym, eosdnt 23-0091271 [lý do nhập chạy cột]
-- bổ sung bcdnt 23-0036174" ~ 1164,
-      snv == "23-0020310" ~ 56,
-      snv == "23-0105835 [đã kiểm tra data]
+- bổ sung bcdnt
+    - 23-0036174" ~ 1164,
+    - snv == "23-0020310" ~ 56,
+    - snv == "23-0105835" ~ 19 [đã kiểm tra data]
 - 
