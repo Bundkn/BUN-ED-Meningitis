@@ -32,5 +32,11 @@ vmn_clean_01
 - Kiểm tra điều chỉnh Eos
   - 23-0072994: thành 0 (lý do nhập nhầm cột Mono thành Eos)
 - Đổi ure sang mg/dL, NA nếu không làm, cre sang mg/dL toàn bộ 
-## Lưu ý
-- 24-0094271 đã kiểm tra không có dữ liệu tế bào DNT do chạm mạch, không làm được
+## 25/11/2026
+- snv == "25-0057205" ~ 0.69 # do đã tra lại hồ sơ lấy XN BV khác trước nhập viện, bổ sung eGFR tương ứng
+- bỏ hàng 24-0094271 đã kiểm tra không có dữ liệu tế bào DNT do chạm mạch, không làm được (thống nhất ý kiến thày Di)
+- sửa bc, neu, lym, eosdnt 23-0091271 [lý do nhập chạy cột]
+- bổ sung bcdnt 23-0036174" ~ 1164,
+      snv == "23-0020310" ~ 56,
+      snv == "23-0105835 [đã kiểm tra data]
+- 
