@@ -45,3 +45,37 @@ vmn_clean_01
 - sửa eosdnt 25-0116196
 - sửa lacdnt, bidnt, cldnt == 0 ~ NA
 - điều chỉnh snv 25-0080395, 25-0046961, 25-0057648, 24-0054626 kqvmn == 1 -> 0
+- cc = ifelse(snv == "25-0020633", 162, cc),
+- cn = ifelse(snv == "25-0092748", 66, cn),
+- cn = ifelse(snv == "24-0083275", 48, cn),
+- cn = ifelse(snv == "25-0115710", 54, cn),
+- cn = ifelse(snv == "24-0076286", 52, cn),
+- cn = ifelse(snv == "24-0124024", 50, cn)
+- sửa sinh hiệu nhiều tst = ifelse(snv == "23-0019082", 90, tst),
+      hatr = ifelse(snv == "25-0053570", 60, hatr),
+      hatr = ifelse(snv == "25-0120576", 70, hatr),
+      tem = ifelse(snv == "25-0003778", 36, tem),
+      tem = ifelse(snv == "25-0101187", 36, tem),
+      tem = ifelse(snv == "23-0110420", 37.8, tem),
+      tem = ifelse(snv == "23-0056028", 37, tem),
+      rr = ifelse(snv == "23-0098559", 18, rr),
+      rr = ifelse(snv == "24-0120202", 18, rr),
+      rr = ifelse(snv == "24-0115979", 18, rr),
+      rr = ifelse(snv == "23-0031306", 18, rr),
+      rr = ifelse(snv == "25-0037690", 20, rr),
+      spo2 = ifelse(snv == "24-0062514", 95, spo2),
+      spo2 = ifelse(snv == "25-0117709", 90, spo2),
+      spo2 = ifelse(snv == "23-0023865", 95, spo2),
+      spo2 = ifelse(snv == "23-0075599", 92, spo2),
+      spo2 = ifelse(snv == "23-0045446", 98, spo2)
+    )
+ 
+  m <- m %>%
+  mutate(
+    tem = if_else(
+      snv %in% c("25-0027742", "25-0010418", "25-0024956",
+                 "25-0016421", "25-0090538", "25-0092582",
+                 "23-0057045"),
+      tem / 10,
+      tem
+    ))
